@@ -1,4 +1,5 @@
 from operator import itemgetter
+#Soma todos os numeros de casas pares(0 incluso) e depois multiplica pelo ultimo numero
 
 def checkio(array):
     indice = 0
@@ -24,3 +25,10 @@ if __name__ == '__main__':
     assert checkio([]) == 0, "An empty array = 0"
     print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
 
+"""
+best-solution
+def checkio(array):
+      
+    if len(array) == 0: return 0
+    return sum(array[0::2]) * array[-1]
+"""
