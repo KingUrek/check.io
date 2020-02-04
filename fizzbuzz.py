@@ -24,3 +24,9 @@ if __name__ == '__main__':
     assert checkio(5) == "Buzz", "5 is divisible by 5"
     assert checkio(7) == "7", "7 is not divisible by 3 or 5"
     print("Coding complete? Click 'Check' to review your tests and earn cool rewards!")
+
+
+  """best solution
+  def checkio(n):
+    return 'Fizz'*(not n%3)+' '*(not n%15)+'Buzz'*(not n%5) or str(n)
+    """
