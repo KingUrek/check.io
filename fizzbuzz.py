@@ -1,4 +1,5 @@
 #the fizzbuzz code
+
 def checkio(number: int) -> str:
     if(number%5==0 and number%3==0):
         return "Fizz Buzz"
