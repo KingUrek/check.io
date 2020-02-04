@@ -1,3 +1,4 @@
+#get the best stock from dictionairs
 def best_stock(a):
     bestStock = ""
     bestStockPrice = 0

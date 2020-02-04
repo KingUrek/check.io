@@ -1,4 +1,5 @@
 from operator import itemgetter
+#Soma todos os numeros de casas pares(0 incluso) e depois multiplica pelo ultimo numero
 
 def checkio(array):
     indice = 0
